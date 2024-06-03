@@ -1,6 +1,6 @@
 def main():
-    Dollars = float(dollars(input("How much did the meal cost? ")))
-    Percent = float(percent(input("How much do you want to tip? ")))
+    Dollars = dollars(input("How much did the meal cost? "))
+    Percent = percent(input("How much do you want to tip? "))
     tip = Dollars * Percent
     print(f"Leave ${tip:0.2f}")
 def dollars(str_1):
